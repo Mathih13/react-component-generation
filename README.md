@@ -2,6 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+### Env variables
+
+Create a `.env` file in the root directory and add the following variables:
+
+```
+OPENAI_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+OPENAI_CONTEXT="[Information about how to generate the output. See openaictx.txt for an example]"
+```
+
 First, run the development server:
 
 ```bash
